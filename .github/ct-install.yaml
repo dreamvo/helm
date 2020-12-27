@@ -1,0 +1,16 @@
+chart-dirs:
+  - dreamvo
+chart-repos:
+  - dreamvo=https://dreamvo.github.io/helm
+debug: true
+excluded-charts:
+  - common
+  - kubeapps
+  - kibana
+  - kong
+  - mariadb-galera
+  - discourse
+  - ejbca
+  - wavefront
+  - harbor
+remote: origin
